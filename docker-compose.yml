@@ -5,7 +5,9 @@ services:
     restart: ${RESTART_POLICY}
     security_opt:
       - no-new-privileges:true
-    pids_limit: 100
+    # See https://docs.mattermost.com/administration-guide/scale/scaling-for-enterprise.html
+    # for guidance on memory limits based on your deployment size.
+    mem_limit: 16G
     read_only: true
     tmpfs:
       - /tmp
@@ -28,7 +30,9 @@ services:
     restart: ${RESTART_POLICY}
     security_opt:
       - no-new-privileges:true
-    pids_limit: 200
+    # See https://docs.mattermost.com/administration-guide/scale/scaling-for-enterprise.html
+    # for guidance on memory limits based on your deployment size.
+    mem_limit: 4G
     read_only: ${MATTERMOST_CONTAINER_READONLY}
     tmpfs:
       - /tmp
