@@ -1,0 +1,5 @@
+services:
+  mattermost:
+    environment:
+      - MM_SERVICESETTINGS_SITEURL=http://10.254.164.88:8065
+      - MM_SERVICESETTINGS_ALLOWCORSFROM=http://10.254.164.88:8065 http://localhost:8065
