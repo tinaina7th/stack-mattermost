@@ -2,15 +2,16 @@
 [![ShellCheck](https://github.com/mattermost/docker/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/mattermost/docker/actions/workflows/shellcheck.yml)
 [![Docker Test](https://github.com/mattermost/docker/actions/workflows/docker-test.yml/badge.svg)](https://github.com/mattermost/docker/actions/workflows/docker-test.yml)
 
-The official Docker deployment solution for Mattermost.
+Mattermost の公式 Docker デプロイソリューションです。
 
-## Install & Usage
+## インストールと使い方
 
-Refer to the [Mattermost Docker deployment guide](https://docs.mattermost.com/deployment-guide/server/deploy-containers.html) for instructions on how to install and use this Docker image.
+この Docker イメージのインストール方法と利用方法は、[Mattermost Docker デプロイガイド](https://docs.mattermost.com/deployment-guide/server/deploy-containers.html) を参照してください。
 
-## Contribute
-PRs are welcome, refer to our [contributing guide](https://developers.mattermost.com/contribute/getting-started/) for an overview of the Mattermost contribution process.
+## コントリビュート
 
-## Upgrading from `mattermost-docker`
+PR は歓迎です。Mattermost への貢献プロセスの概要については、[コントリビュートガイド](https://developers.mattermost.com/contribute/getting-started/) を参照してください。
 
-This repository replaces the [deprecated mattermost-docker repository](https://github.com/mattermost/mattermost-docker). For an in-depth guide to upgrading, please refer to [this document](https://github.com/mattermost/docker/blob/main/scripts/UPGRADE.md).
+## `mattermost-docker` からのアップグレード
+
+このリポジトリは、[非推奨となった mattermost-docker リポジトリ](https://github.com/mattermost/mattermost-docker) の置き換えです。アップグレードの詳細なガイドについては、[こちらのドキュメント](https://github.com/mattermost/docker/blob/main/scripts/UPGRADE.md) を参照してください。
