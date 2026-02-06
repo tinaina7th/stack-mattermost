@@ -1,12 +1,5 @@
 # https://docs.docker.com/compose/environment-variables/
 services:
-  admin-user-ui:
-    build: ./admin-user-ui
-    restart: ${RESTART_POLICY}
-    environment:
-      - MM_API_URL
-      - MM_ADMIN_TOKEN
-
   postgres:
     image: postgres:${POSTGRES_IMAGE_TAG}
     restart: ${RESTART_POLICY}
